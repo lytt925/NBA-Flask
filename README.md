@@ -3,7 +3,7 @@
 flask包含前端code, 還有pycaret跟tpot的pretrained模型api  
 flask_autosk 包含 autosklearn的pretrained模型api  
 
-
+如果有遇到什麼identifier的問題都直接略過就行。
 
 ## Usage 1
 1. `cd NBA-Flask`
