@@ -8,7 +8,7 @@ flask_autosk 包含 autosklearn的pretrained模型api
 ## Usage 1
 1. `cd NBA-Flask`
 2. 確保 flask/frontend裡面有build，如果沒有請先cd到frontend然後npm install，再npm run build
-3. `docker compose up`
+3. `docker-compose up`
 
 ## Usage 2
 
