@@ -11,4 +11,6 @@ flask_autosk 包含 autosklearn的pretrained模型api
 3. `docker compose up`
 
 ## Usage 2
-分別進入flask和flask_autosk 輸入python server.py 然後開啟localhost:5001。（因為前端code放在5001）
+
+分別進入flask和flask_autosk用requirement.txt各自建立一個虛擬環境。
+啟動虛擬環境，然後分別輸入python server.py 然後開啟localhost:5001。（因為前端code放在5001）
