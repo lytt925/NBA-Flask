@@ -1,0 +1,27 @@
+.Main {
+    margin: 10% auto;
+    width: 600px;
+    text-align: center;
+}
+
+.Date {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Choice {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}

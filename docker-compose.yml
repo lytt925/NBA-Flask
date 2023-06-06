@@ -1,0 +1,16 @@
+version: '3'
+services:
+  flask_server2:
+    build: ./flask_autosk
+    ports:
+      - 5002:5002
+    volumes:
+      - ./flask_autosk:/app/flask_autosk
+    expose:
+      - 5002
+  flask_server1:
+    build: ./flask
+    ports:
+      - 5001:5001
+    volumes:
+      - ./flask:/app/flask
