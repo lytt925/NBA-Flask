@@ -4,7 +4,7 @@ let baseURL
 if (process.env.NODE_ENV === 'production') {
   baseURL = '/api/nbapred'
 } else {
-  baseURL = '/api/nbapred'
+  baseURL = 'http://localhost:5001/api/nbapred'
 }
 
 const instance = axios.create
